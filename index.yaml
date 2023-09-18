@@ -8,13 +8,13 @@ entries:
       artifacthub.io/containsSecurityUpdates: "false"
     apiVersion: v2
     appVersion: 9.4.9
-    created: "2023-09-18T14:00:46.607872+05:30"
+    created: "2023-09-18T14:28:44.81795+05:30"
     dependencies:
     - name: common
       repository: https://atlassian.github.io/data-center-helm-charts
       version: 1.2.3
     description: A chart for installing Jira Data Center on Kubernetes
-    digest: dfec6e85a2d53f36e2881535aced026758c87d658a6235e8bf105ecd032cfeeb
+    digest: df06cb8e5d46bfce3d7cbd9bda12563fbc3326be0490846a99f73151d6266090
     home: https://atlassian.github.io/data-center-helm-charts/
     icon: https://atlassian.github.io/data-center-helm-charts/icons/jira-software.svg
     keywords:
@@ -33,4 +33,4 @@ entries:
     urls:
     - https://github.com/ZubairRafiq/atlassian-helm/tree/main/charts/charts/jira-1.15.3.tgz
     version: 1.15.3
-generated: "2023-09-18T14:00:46.604909+05:30"
+generated: "2023-09-18T14:28:44.813747+05:30"
