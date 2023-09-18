@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  jira:
+  - annotations:
+      artifacthub.io/changes: |-
+        - "Decouple server and jmx annotations (#654)"
+        - "Disable startup probes by default (#653)"
+      artifacthub.io/containsSecurityUpdates: "false"
+    apiVersion: v2
+    appVersion: 9.4.9
+    created: "2023-09-18T14:00:46.607872+05:30"
+    dependencies:
+    - name: common
+      repository: https://atlassian.github.io/data-center-helm-charts
+      version: 1.2.3
+    description: A chart for installing Jira Data Center on Kubernetes
+    digest: dfec6e85a2d53f36e2881535aced026758c87d658a6235e8bf105ecd032cfeeb
+    home: https://atlassian.github.io/data-center-helm-charts/
+    icon: https://atlassian.github.io/data-center-helm-charts/icons/jira-software.svg
+    keywords:
+    - Jira
+    - Jira Software
+    - Jira Server
+    - Jira Data Center
+    - Jira DC
+    - Atlassian
+    kubeVersion: '>=1.21.x-0'
+    name: jira
+    sources:
+    - https://github.com/atlassian/data-center-helm-charts
+    - https://bitbucket.org/atlassian-docker/docker-atlassian-jira/
+    type: application
+    urls:
+    - https://github.com/ZubairRafiq/atlassian-helm/tree/main/charts/charts/jira-1.15.3.tgz
+    version: 1.15.3
+generated: "2023-09-18T14:00:46.604909+05:30"
